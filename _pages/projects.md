@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Stuff I'm working in. Yes, this is how I roll, please be careful.
+description: Stuff I'm working in. Yes, this is how I roll, please be careful. Imo, it is the same thing in escence.
 nav: true
 nav_order: 3
-display_categories: [microbio, coding, creative++, sci-comm]
+display_categories: [microbio, coding, creative & pens, sci-comm]
 horizontal: false
 ---
 
