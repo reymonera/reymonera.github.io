@@ -1,33 +1,53 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Doing a visit in Fundación Ciencia y Vida
+date: 2024-05-16 12:00:00-0500
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+# Upcoming Visit to an Environmental Microbiology Laboratory in Chile
+
+## Overview
+
+I'm excited to announce an upcoming visit to a renowned environmental microbiology laboratory in Chile. This visit will provide a unique opportunity to explore the intersection of microbiology and environmental science, gaining insights into the latest research and technologies used to study microbial ecosystems and their impact on the environment. On top of it all, it will be held in Chile, a place I've known quite a bit because of its extreme environments.
+
+## Objectives
+
+The primary goal of this visit is to enhance my understanding of environmental microbiology, focusing on the methodologies and applications in real-world scenarios. This visit will also facilitate networking with leading scientists in the field and exploring potential collaboration opportunities.
+
+## Activities Checklist
+
+Here's a list of planned activities during the visit:
+
+1. **Laboratory Tour**
+   - Introduction to the lab's facilities and equipment.
+   - Overview of ongoing research projects.
+
+2. **Sample Collection and Processing**
+   - Field trip to local sites for collecting environmental samples.
+   - Hands-on experience with sample processing techniques.
+
+3. **Microbial Culturing and Isolation**
+   - Demonstration of culturing methods for environmental microbes.
+   - Practice isolating microbial strains from collected samples.
+
+4. **DNA Extraction and Sequencing**
+   - Tutorial on DNA extraction protocols.
+   - Overview of sequencing technologies and data analysis.
+
+5. **Microbial Community Analysis**
+   - Introduction to bioinformatics tools for microbial community analysis.
+   - Workshop on interpreting metagenomic data.
+
+6. **Seminar and Networking**
+   - Attend a seminar by a leading researcher in environmental microbiology.
+   - Networking session with lab members and visiting scientists.
+
+## Conclusion
+
+This visit promises to be an enriching experience, providing valuable knowledge and skills in environmental microbiology. I look forward to sharing my learnings and exploring potential collaborations that could contribute to advancements in this exciting field.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
----
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+By participating in these activities, I aim to deepen my expertise in environmental microbiology and build meaningful connections within the scientific community.

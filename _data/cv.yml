@@ -13,7 +13,7 @@
   contents:
     - title: MSc.
       institution: Universidad Peruana Cayetano Heredia, Lima, Peru
-      year: 2022-?
+      year: 2022
       description:
         - Description 1.
         - Description 2.
@@ -23,7 +23,7 @@
             - Sub-description 2.
     - title: BSc.
       institution: Universidad Peruana Cayetano Heredia, Lima, Peru
-      year: 1900
+      year: 2018
       description:
         - Description 1.
         - Description 2.
@@ -31,7 +31,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
+    - title: WordPress Developer
       institution: Institute for Advanced Study, Princeton University
       year: 1933 - 1955
       description:
@@ -41,14 +41,14 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
+    - title: Junior Web Developer
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
         - Description 1.
         - Description 2.
 
-    - title: Director
+    - title: Research Assistant
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
