@@ -23,7 +23,3 @@ Hi there! I am a post-grad researcher in Biochemistry and Molecular Biology at t
 In this page you will be able to find my art and sci-comm projects too! Just head up to the `projects` section and you'll be there. Keep in mind that I moslty write and engage with the public in spanish. Although I have done some work in english, I think it is important to write or talk about science in spanish, something I am quite passionate about.
 
 I am always open to questions, collaborations and lengthy discussions over e-mail! I also offer consultory services in bioinformatics, if there is a need for some specialized help (unless you're an undergrad, you just contact me and I can help, don't worry :) ).
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
