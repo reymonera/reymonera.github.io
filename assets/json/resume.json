@@ -8,7 +8,7 @@
     "url": "https://reymonera.github.io",
     "summary": "Bioinformatician born and raised in Peru. Interested in microbial ecology and the bioinformatic tools for the study of microbial communities.",
     "location": {
-      "address": "Av. Honorio Delgado - San Mart{in de Porres",
+      "address": "Av. Honorio Delgado - San Martín de Porres",
       "postalCode": "CA 94115",
       "city": "Lima",
       "countryCode": "Peru",
@@ -24,18 +24,56 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "ZenBusiness",
+      "position": "SEO Implementation Specialist",
+      "url": "www.linkedin.com/in/camila-castillo-vilcahuaman",
+      "startDate": "2023-06-01",
+      "endDate": "2024-05-24",
+      "summary": "Using WordPress skills, I implemented changes on WordPress pages according to SEO analysis done by the team.",
+      "highlights": ["Raised visits to 25%"]
+    },
+    {
+      "name": "Subastop Co.",
+      "position": "Junior Web Developer",
+      "url": "www.linkedin.com/in/camila-castillo-vilcahuaman",
+      "startDate": "2022-02-21",
+      "endDate": "2023-02-17",
+      "summary": "Implemented new web applications for an e-commerce site, using PHP, Laravel and Python.",
+      "highlights": ["Got promoted to Junior Web Developer from Intern"]
+    },
+    {
+      "name": "Universidad Peruana Cayetano Heredia",
+      "position": "Research Assistant",
+      "url": "www.linkedin.com/in/camila-castillo-vilcahuaman",
+      "startDate": "2018-01-18",
+      "endDate": "2022-02-01",
+      "summary": "Assisted in the Bioinformatics of several projects inside the Microbial Genomics Lab.",
+      "highlights": ["Published 3 papers"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
+      "organization": "RSG Peru",
+      "location": "Lima, Peru",
+      "position": "Lead Organizer",
+      "url": "https://rsg-peru.iscbsc.org/",
+      "startDate": "2019-05-27",
+      "endDate": "2022-05-27",
+      "summary": "Founder and President of the Peruvian Regional Group of the International Society of Computational Biology - Student Council.",
+      "highlights": ["First organization from Peru associated with the ISCB-SC.", "Founding Group of the Sociedad Peruana de Bioinformática"]
+    },
+    {
+      "organization": "Sociedad Peruana de Bioinformática",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    },
+    {
+      "organization": "Women Techmakers - Google",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
       "url": "https://example.com",

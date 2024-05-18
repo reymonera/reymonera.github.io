@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Please, keep in mind that most of this material will be in spanish for now, since it is the language I'm required to use. I hope to update soon the material to be available in other languages. If there's a question about my material, don't hesitate to reach me ;)
 
-Organize your courses by years, topics, or universities, however you like!
+# 2024
+---
+## [Taller Teórico-Práctico de Metabarcoding] [Metabarcoding2024]
+#### Realizado el día: 30 de Mayo del 2024
+En este evento, exploraremos cómo el metabarcoding nos permite analizar la diversidad microbiana a partir del ADN ambiental. Se identificará y caracterizará microorganismos utilizando marcadores genéticos específicos.
+
+[Metabarcoding2024]: /_teaching/
