@@ -3,8 +3,8 @@ layout: post
 title: Taller Teórico-Práctico de Metabarcoding 2024
 date: 2024-05-17 00:00:00
 description: Material para el Taller Teórico-Práctico de Metabarcoding
-tags: formatting code
-categories: sample-posts
+tags: metabarcoding microeco bioinformatics
+categories: workshop
 featured: true
 ---
 # Tutorial de Metabarcoding

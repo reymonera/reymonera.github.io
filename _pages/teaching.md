@@ -15,4 +15,4 @@ Please, keep in mind that most of this material will be in spanish for now, sinc
 #### Realizado el día: 30 de Mayo del 2024
 En este evento, exploraremos cómo el metabarcoding nos permite analizar la diversidad microbiana a partir del ADN ambiental. Se identificará y caracterizará microorganismos utilizando marcadores genéticos específicos.
 
-[Metabarcoding2024]: /_teaching/metabarcoding2024.md
+[Metabarcoding2024]: /teaching/metabarcoding2024
