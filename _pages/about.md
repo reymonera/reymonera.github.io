@@ -10,8 +10,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Lab 410 - UPCH</p>
-    <p>Lima, Peru [currently]</p>
+    <p>Laboratorio de Ecología Microbiana - Fundación Ciencia y Vida</p>
+    <p>Santiago, Chile [currently]</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

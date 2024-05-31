@@ -13,11 +13,7 @@ featured: true
 1. Introducción
 2. Sobre los datos que vamos a manejar
 3. Paso por paso
-4. Extracción de ADN
-5. PCR y Electróforesis
-6. Secuenciación
-7. Análisis de Datos
-8. Conclusiones
+4. Conclusiones
 
 ## Introducción
 El metabarcoding es una técnica de secuenciación de ADN que permite identificar y caracterizar la biodiversidad presente en una muestra ambiental. Utiliza secuencias de ADN seleccionadas para determinar rápidamente las especies que componen una comunidad biológica. Estas secuencias normalmente son marcadores taxonómicos con características específicas ya seleccionadas. Para el caso del taller de hoy, ese marcador será el 16S, por características que estaremos definiendo después.
@@ -56,6 +52,8 @@ Estaremos utilizando data del laboratorio Schloss. Estos describen su experiment
 ### Crear cuenta en Galaxy e importar secuencias
 
 Primero es necesario generar una cuenta en Galaxy. Utilizaremos esta plataforma puesto que no requiere ninguna instalación complicada y nos permite centrarnos en los pasos. Para ello requieres hacer lo siguiente:
+
+![Como subir archivos](https://i.imgur.com/YVcxyga.png)
 
 Luego de este paso, nos toca importar la data a utilizar. Para ello utilizaremos una forma de importación especial. Requeriremos URLs de nuestras muestras. Aquí van:
 
@@ -112,19 +110,70 @@ https://zenodo.org/record/800651/files/mouse.dpw.metadata
 ```
 Proseguiremos creando un dataset. Para ello, seleccionaremos todas nuestras secuencias con un check y le daremos a "Build dataset pairs list". Automáticamente, Galaxy deducirá que tienes secuencias forward (R1) y reverse (R2). De no ser así, se le puede agregar ese filtro de todos modos. Vemos que Galaxy también le ha asignado un nombre a cada uno de los archivos pareados, de acuerdo al nombre que queda detrás del guión bajo.
 
+![Como subir archivos](https://i.imgur.com/SHv6YSR.png)
+
 Por último, agrega el nombre de tu preferencia en la parte de abajo.
 
-### Crear cuenta en Galaxy e importar secuencias
+### Control de calidad
+
+Antes de realizar el control de calidad de nuestras secuencias, procederemos a crear contigs en base a nuestros archivos. Esto se logra utilizando la herramienta `Make.contig` disponible en Galaxy.
+
+Realizaremos, entonces, los siguientes pasos:
+
+1. Filtrar por longitud: Sabemos que nuestra región tiene 240 bp. Las secuencias que sean más largas son en realidad malos ensamblajes.
+2. Remover contigs de baja calidad: Cualquier secuencia que tenga baja calidad entrará aquí.
+3. Deduplicar secuencias idénticas: Sabemos que tenemos varias secuencias que son básicamente el mismo organismo. Entonces, escogeremos solo las secuencias únicas.
+4. Contar secuencias: Un procedimiento que permite saber el número de secuencias en una muestra.
+
+Para acelear el procedimiento, utilizaremos un [workflow][workflow_limpieza] que se ejecutará de la siguiente manera:
+
+Si entramos a la opción del Workflow completo, podremos ver que la opción para filtrar secuencias se encuentra en `Screen.seqs`, en dónde hay una longitud máxima ya establecida.
+
+Es importante notar que, si bien trabajaremos con secuencias únicas, nuestra tabla de conteo mantiene los números originales, y que lo que calculemos como único es solo una representación de lo que realmente tenemos.
+
+Una vez que terminamos con ese procedimiento, pasamos a identificar nuestras secuencias.
+
+### Alineamiento con base de datos
+
+Esto se realizará con la herramienta `align.Seqs`, que nos permitirá alinear nuestras secuencias con la base de datos disponible para nuestra muestra (en este caso, Silva). Para ello, colocaremos las siguientes opciones:
 
 
-## Extracción de ADN
-Describe el proceso de extracción de ADN de las muestras recogidas.
+### Más limpieza y eliminación de quimeras
 
-```bash
-# Ejemplo de código para la extracción de ADN
-echo "Aquí va el código relacionado con la extracción de ADN"
-```
+Logramos determinar las secuencias que se alinean con nuestra BD. Sin embargo, aún nos quedamos con secuencias no alineadas, y por ahí tenemos secuencias híbridas artificiales (productos normales en PCRs) que no se alinean tampoco. Estas secuencias se conocen como quimeras, como las criaturas mitológicas griegas que combinaban varios animales en una sola. Utilizaremos el siguiente [workflow][workflow_quimeras], que nos permitirá hacer varios pasos de limpieza de un porrazo.
+
+Hay que prestarle atención a los datos que nos otorgan las herramientas respecto a las secuencias removidas y la cantidad de secuencias que tenemos.
+
+### Asignación de taxonomía y remoción de secuencias no bacterianas.
+
+Ahora si procederemos a asignar una taxonomía. Para ello, haremos la identificación en base a nuestra BD. Utilizaremos nuevamente un [workflow][workflow_taxonomia] de Galaxy con los siguientes parámetros:
+
+A través de este paso, podemos determinar los grupos taxonómicos presentes en nuestras muestras.
+
+### Clustering por OTUs
+
+Los análisis de 16S normalmente trabajan a partir de OTUs (Operational Taxonomic Unit). Esta es una clusterización realizada computacionalmente, es decir, a partir de la similitud entre secuencias. Y, eso quiere decir, que no tienen una significancia biológica en sí. Por el momento solo una clusterización cruda y dura a partir de nuestros datos.
+
+Para ello, utilizaremos el siguiente [workflow][workflow_otus] de la siguiente manera:
+
+### Visualización
+
+Por último, realizaremos la visualización de nuestras muestras utilizando `Taxonomy-to-Krona` y `Krona-pie-chart`. Esto lo realizaremos con los siguientes parámetros:
+
+1. `Taxonomy-to-Krona`: Se añade el output Taxonomy de `Classify.out`
+2. `Krona pie chart`: Se añade el output Tabular de `Taxonomy-to-Krona`.
+
+Esto se añade de la siguiente manera:
+
+Con lo que quedaría lo siguiente:
+
+## Conclusión
+
+El metabarcoding 16S es una herramienta poderosa para estudiar comunidades microbianas a través de la secuenciación del gen ARNr 16S. Sin embargo, presenta algunas limitaciones importantes. En primer lugar, la asignación taxonómica basada en secuencias de 16S depende de bases de datos de referencia, y la calidad y exhaustividad de estas bases de datos pueden variar. Por lo tanto, los resultados deben interpretarse con precaución, especialmente cuando se trata de taxas poco conocidas o no cultivadas. A pesar de estas limitaciones, el metabarcoding 16S sigue siendo una herramienta valiosa para explorar la diversidad microbiana en diferentes entornos y proporcionar información clave para la investigación ambiental y la salud pública.
 
 [paper-1]: https://www.elsevier.es/es-revista-enfermedades-infecciosas-microbiologia-clinica-28-articulo-identificacion-bacteriana-mediante-secuenciacion-del-13059055
 [paper-2]: https://es.slideshare.net/slideshow/ccbc-tutorial-beiko/62069404
- 
+[workflow_limpieza]: https://usegalaxy.eu/workflows/run?id=3c046decc7eb81a7
+[workflow_quimeras]: https://usegalaxy.eu/workflows/run?id=76446ec8b326d08e
+[workflow_taxonomia]: https://usegalaxy.eu/workflows/run?id=a33f63b7270dd6b8
+[workflow_otus]: https://usegalaxy.eu/workflows/run?id=c3795f1aa779bf04
