@@ -127,6 +127,8 @@ Realizaremos, entonces, los siguientes pasos:
 
 Para acelear el procedimiento, utilizaremos un [workflow][workflow_limpieza] que se ejecutará de la siguiente manera:
 
+![Workflow limpieza](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRcn2QIqo2VVT87QopNHWwMsiolbn4oGUkipiO8-slgjhVQkZbXdN20jPzH8gShEtQCv3BNz3wwzScLUIpteYTOExJiKTMFwmdHFdj1ATaiTP7c3Ui5Yr6G14ZSzUBV7bGIXD3Umgw_qt1wRGNlPcg5pHaxjh9c0Aatqiu1hVmahY3Z-n9S7eNRFYk4zvl/s1851/control_calidad_workflow.png)
+
 Si entramos a la opción del Workflow completo, podremos ver que la opción para filtrar secuencias se encuentra en `Screen.seqs`, en dónde hay una longitud máxima ya establecida.
 
 Es importante notar que, si bien trabajaremos con secuencias únicas, nuestra tabla de conteo mantiene los números originales, y que lo que calculemos como único es solo una representación de lo que realmente tenemos.
@@ -135,6 +137,8 @@ Una vez que terminamos con ese procedimiento, pasamos a identificar nuestras sec
 
 ### Alineamiento con base de datos
 
+![Align](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBRAT0VGy52_RdpANSis2-MUp9QXgij2VIMzAzRdowoob7YK8okRR8ZFsxT_AEDt2xJBoHoAVlfeljNCIZav-4Dyh0EAcpuR0PI3mGGXXfG4qhAsR-l0BU5mVq5Q0ENO6zAFv98YCFysdacOYOM5ki78Rm00xNjW_kcl1kCoXLIyMek3AXYpilarYimzIl/s1851/asignar_base_de_datos.png)
+
 Esto se realizará con la herramienta `align.Seqs`, que nos permitirá alinear nuestras secuencias con la base de datos disponible para nuestra muestra (en este caso, Silva). Para ello, colocaremos las siguientes opciones:
 
 
@@ -142,11 +146,15 @@ Esto se realizará con la herramienta `align.Seqs`, que nos permitirá alinear n
 
 Logramos determinar las secuencias que se alinean con nuestra BD. Sin embargo, aún nos quedamos con secuencias no alineadas, y por ahí tenemos secuencias híbridas artificiales (productos normales en PCRs) que no se alinean tampoco. Estas secuencias se conocen como quimeras, como las criaturas mitológicas griegas que combinaban varios animales en una sola. Utilizaremos el siguiente [workflow][workflow_quimeras], que nos permitirá hacer varios pasos de limpieza de un porrazo.
 
+![Limpieza](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVP1mYAwZT6JF2ZupOL2IRb2lHgxdHTkIZLDl8523oA9WZj6ohUg69zJ8uG11LGjCtfxitq1293TEvQesAqXQ33Ci4k3LBMtldQmPzWt5R_M7xKDXl93Jz_zqPBChlCeorth0zlRWD1QY6fAlXDmMf37Pbg8QUYjcwhlWIv3mBh9kcb6QFBKoTWNwM-HWz/s1851/remover_quimeras.png)
+
 Hay que prestarle atención a los datos que nos otorgan las herramientas respecto a las secuencias removidas y la cantidad de secuencias que tenemos.
 
 ### Asignación de taxonomía y remoción de secuencias no bacterianas.
 
 Ahora si procederemos a asignar una taxonomía. Para ello, haremos la identificación en base a nuestra BD. Utilizaremos nuevamente un [workflow][workflow_taxonomia] de Galaxy con los siguientes parámetros:
+
+![Taxonomía](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuitEpwexaxMWTDdPZNWZVKYvoTR7zIrcxFKv7tOhL52Ufrs2jbuJLcNQjEm_-sWHS01VGumo3iL4tyEzawivQxWQjjre1nnk81mhWvwYwCyAf8s3s4dLJN_d9nXqn2Fsar2Vv2UL0TNTEPzBSjBTZyupa8siFp_YVI_MXHiBViWuJv3OAzWgPLQC5Jpub/s1851/asignar_taxonomia.png)
 
 A través de este paso, podemos determinar los grupos taxonómicos presentes en nuestras muestras.
 
@@ -155,6 +163,8 @@ A través de este paso, podemos determinar los grupos taxonómicos presentes en 
 Los análisis de 16S normalmente trabajan a partir de OTUs (Operational Taxonomic Unit). Esta es una clusterización realizada computacionalmente, es decir, a partir de la similitud entre secuencias. Y, eso quiere decir, que no tienen una significancia biológica en sí. Por el momento solo una clusterización cruda y dura a partir de nuestros datos.
 
 Para ello, utilizaremos el siguiente [workflow][workflow_otus] de la siguiente manera:
+
+![OTUs](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkIm8eB2LWsT0g6ITb_LT0RieEbPKuMEcqoEuCYa_NlgaBzaAtN7nM9JwlZPHsbm14FGzHypLzor3NmJRX_ByNiD4hnbDwFv9r2ODnCrbd-k5wSpKV4HCm_fQbdbH_r15mWLpqbeab2YLvusdA_IoVjTcif9eAefV2hiWMPiopgG-HqHmLyxLBisUVonnH/s1851/asignar_otus.png)
 
 ### Visualización
 
@@ -165,7 +175,12 @@ Por último, realizaremos la visualización de nuestras muestras utilizando `Tax
 
 Esto se añade de la siguiente manera:
 
+![Taxonomy-to-Krona](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY297bZkHqXV1z5KezbbFKPayGUbu0AbjFzyPGXzXI5zPJhA7-6uc3WFxP1m9G88DmUMoHciZ5TkCDt2H0BtTFink3tjIFzL8HZ81bJjfBjdnZHxxcUx2z3fhInYhW4wE0jqxBcSgb0uvv95qc18uIp-821fHswA8nuMe02cndRYyWKE90ZFUCQY7PNUJs/s1851/taxonomy-to-krona.png)
+![Krona-pie-chart](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV_B8ORQFGRQb9VjKZhpuXlVtPoFnsJuyCc_jqaJOh_wLsmQEMijnEpAZCPPtGksbst7GGq8Vh2CHMMsoYlkB8t2ay8qAB7bJg32yx0HGMsOxfhygYlKah3fzUYV1RtlqtDyZy8tC4ksYCLhLTpU4r2fxGrt4gdN7jQ0OgdlElAPgbOMJwk5vUGyHdyZAg/s1851/krona-pie-chart.png)
+
 Con lo que quedaría lo siguiente:
+
+![Krona-pie-chart](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSYfQzSFesknqxsxVHLJpJrTzQ8wKeNycuX06ksSK4eDlECbUUTkcmk8f9cAiR0C2riUkEGWcmfxz8dGk1w-gfInJ7QToIse0ARnEcwr1BAT6zpksRJ_xbV9lzAW-lW_vJnA6FCg0d-LGSvYe3idpEpd9d3lZU5HTz4dpEyKLoM5GtuQxHO7VHdSFnAQN4/s1851/deberiamos_resultado_krona.png)
 
 ## Conclusión
 
