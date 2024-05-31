@@ -175,8 +175,8 @@ Por último, realizaremos la visualización de nuestras muestras utilizando `Tax
 
 Esto se añade de la siguiente manera:
 
-![Taxonomy-to-Krona](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgY297bZkHqXV1z5KezbbFKPayGUbu0AbjFzyPGXzXI5zPJhA7-6uc3WFxP1m9G88DmUMoHciZ5TkCDt2H0BtTFink3tjIFzL8HZ81bJjfBjdnZHxxcUx2z3fhInYhW4wE0jqxBcSgb0uvv95qc18uIp-821fHswA8nuMe02cndRYyWKE90ZFUCQY7PNUJs/s1851/taxonomy-to-krona.png)
-![Krona-pie-chart](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV_B8ORQFGRQb9VjKZhpuXlVtPoFnsJuyCc_jqaJOh_wLsmQEMijnEpAZCPPtGksbst7GGq8Vh2CHMMsoYlkB8t2ay8qAB7bJg32yx0HGMsOxfhygYlKah3fzUYV1RtlqtDyZy8tC4ksYCLhLTpU4r2fxGrt4gdN7jQ0OgdlElAPgbOMJwk5vUGyHdyZAg/s1851/krona-pie-chart.png)
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV_B8ORQFGRQb9VjKZhpuXlVtPoFnsJuyCc_jqaJOh_wLsmQEMijnEpAZCPPtGksbst7GGq8Vh2CHMMsoYlkB8t2ay8qAB7bJg32yx0HGMsOxfhygYlKah3fzUYV1RtlqtDyZy8tC4ksYCLhLTpU4r2fxGrt4gdN7jQ0OgdlElAPgbOMJwk5vUGyHdyZAg/s1851/krona-pie-chart.png" width="200">
+
 
 Con lo que quedaría lo siguiente:
 
