@@ -175,7 +175,7 @@ Por último, realizaremos la visualización de nuestras muestras utilizando `Tax
 
 Esto se añade de la siguiente manera:
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV_B8ORQFGRQb9VjKZhpuXlVtPoFnsJuyCc_jqaJOh_wLsmQEMijnEpAZCPPtGksbst7GGq8Vh2CHMMsoYlkB8t2ay8qAB7bJg32yx0HGMsOxfhygYlKah3fzUYV1RtlqtDyZy8tC4ksYCLhLTpU4r2fxGrt4gdN7jQ0OgdlElAPgbOMJwk5vUGyHdyZAg/s1851/krona-pie-chart.png" width="200">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV_B8ORQFGRQb9VjKZhpuXlVtPoFnsJuyCc_jqaJOh_wLsmQEMijnEpAZCPPtGksbst7GGq8Vh2CHMMsoYlkB8t2ay8qAB7bJg32yx0HGMsOxfhygYlKah3fzUYV1RtlqtDyZy8tC4ksYCLhLTpU4r2fxGrt4gdN7jQ0OgdlElAPgbOMJwk5vUGyHdyZAg/s1851/krona-pie-chart.png" width="500">
 
 
 Con lo que quedaría lo siguiente:
