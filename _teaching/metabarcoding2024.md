@@ -36,7 +36,7 @@ El gen de la secuencia ribosomal 16S presenta ciertas características únicas q
 3. Altamente conservado y con regiones que son altamente variables (raro, pero básicamente lo primero indica que su función se mantiene porque es vital, mientras que sus regiones varían)
 4. Gran base de datos de referencia.
 
-<img src= https://training.galaxyproject.org/training-material/topics/microbiome/images/16S_variableregions.jpg "Variabilidad entre regiones del gen 16S  width="730">
+<img src= "https://training.galaxyproject.org/training-material/topics/microbiome/images/16S_variableregions.jpg" width="730">
 
 ## Sobre los datos que vamos a manejar
 
@@ -127,7 +127,7 @@ Realizaremos, entonces, los siguientes pasos:
 
 Para acelear el procedimiento, utilizaremos un [workflow][workflow_limpieza] que se ejecutará de la siguiente manera:
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRcn2QIqo2VVT87QopNHWwMsiolbn4oGUkipiO8-slgjhVQkZbXdN20jPzH8gShEtQCv3BNz3wwzScLUIpteYTOExJiKTMFwmdHFdj1ATaiTP7c3Ui5Yr6G14ZSzUBV7bGIXD3Umgw_qt1wRGNlPcg5pHaxjh9c0Aatqiu1hVmahY3Z-n9S7eNRFYk4zvl/s1851/control_calidad_workflow.png width="730">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRcn2QIqo2VVT87QopNHWwMsiolbn4oGUkipiO8-slgjhVQkZbXdN20jPzH8gShEtQCv3BNz3wwzScLUIpteYTOExJiKTMFwmdHFdj1ATaiTP7c3Ui5Yr6G14ZSzUBV7bGIXD3Umgw_qt1wRGNlPcg5pHaxjh9c0Aatqiu1hVmahY3Z-n9S7eNRFYk4zvl/s1851/control_calidad_workflow.png" width="730">
 
 Si entramos a la opción del Workflow completo, podremos ver que la opción para filtrar secuencias se encuentra en `Screen.seqs`, en dónde hay una longitud máxima ya establecida.
 
@@ -137,7 +137,7 @@ Una vez que terminamos con ese procedimiento, pasamos a identificar nuestras sec
 
 ### Alineamiento con base de datos
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBRAT0VGy52_RdpANSis2-MUp9QXgij2VIMzAzRdowoob7YK8okRR8ZFsxT_AEDt2xJBoHoAVlfeljNCIZav-4Dyh0EAcpuR0PI3mGGXXfG4qhAsR-l0BU5mVq5Q0ENO6zAFv98YCFysdacOYOM5ki78Rm00xNjW_kcl1kCoXLIyMek3AXYpilarYimzIl/s1851/asignar_base_de_datos.png width="730">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBRAT0VGy52_RdpANSis2-MUp9QXgij2VIMzAzRdowoob7YK8okRR8ZFsxT_AEDt2xJBoHoAVlfeljNCIZav-4Dyh0EAcpuR0PI3mGGXXfG4qhAsR-l0BU5mVq5Q0ENO6zAFv98YCFysdacOYOM5ki78Rm00xNjW_kcl1kCoXLIyMek3AXYpilarYimzIl/s1851/asignar_base_de_datos.png" width="730">
 
 Esto se realizará con la herramienta `align.Seqs`, que nos permitirá alinear nuestras secuencias con la base de datos disponible para nuestra muestra (en este caso, Silva). Para ello, colocaremos las siguientes opciones:
 
@@ -146,7 +146,7 @@ Esto se realizará con la herramienta `align.Seqs`, que nos permitirá alinear n
 
 Logramos determinar las secuencias que se alinean con nuestra BD. Sin embargo, aún nos quedamos con secuencias no alineadas, y por ahí tenemos secuencias híbridas artificiales (productos normales en PCRs) que no se alinean tampoco. Estas secuencias se conocen como quimeras, como las criaturas mitológicas griegas que combinaban varios animales en una sola. Utilizaremos el siguiente [workflow][workflow_quimeras], que nos permitirá hacer varios pasos de limpieza de un porrazo.
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVP1mYAwZT6JF2ZupOL2IRb2lHgxdHTkIZLDl8523oA9WZj6ohUg69zJ8uG11LGjCtfxitq1293TEvQesAqXQ33Ci4k3LBMtldQmPzWt5R_M7xKDXl93Jz_zqPBChlCeorth0zlRWD1QY6fAlXDmMf37Pbg8QUYjcwhlWIv3mBh9kcb6QFBKoTWNwM-HWz/s1851/remover_quimeras.png width="730">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVP1mYAwZT6JF2ZupOL2IRb2lHgxdHTkIZLDl8523oA9WZj6ohUg69zJ8uG11LGjCtfxitq1293TEvQesAqXQ33Ci4k3LBMtldQmPzWt5R_M7xKDXl93Jz_zqPBChlCeorth0zlRWD1QY6fAlXDmMf37Pbg8QUYjcwhlWIv3mBh9kcb6QFBKoTWNwM-HWz/s1851/remover_quimeras.png" width="730">
 
 Hay que prestarle atención a los datos que nos otorgan las herramientas respecto a las secuencias removidas y la cantidad de secuencias que tenemos.
 
@@ -154,7 +154,7 @@ Hay que prestarle atención a los datos que nos otorgan las herramientas respect
 
 Ahora si procederemos a asignar una taxonomía. Para ello, haremos la identificación en base a nuestra BD. Utilizaremos nuevamente un [workflow][workflow_taxonomia] de Galaxy con los siguientes parámetros:
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuitEpwexaxMWTDdPZNWZVKYvoTR7zIrcxFKv7tOhL52Ufrs2jbuJLcNQjEm_-sWHS01VGumo3iL4tyEzawivQxWQjjre1nnk81mhWvwYwCyAf8s3s4dLJN_d9nXqn2Fsar2Vv2UL0TNTEPzBSjBTZyupa8siFp_YVI_MXHiBViWuJv3OAzWgPLQC5Jpub/s1851/asignar_taxonomia.png width="730">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuitEpwexaxMWTDdPZNWZVKYvoTR7zIrcxFKv7tOhL52Ufrs2jbuJLcNQjEm_-sWHS01VGumo3iL4tyEzawivQxWQjjre1nnk81mhWvwYwCyAf8s3s4dLJN_d9nXqn2Fsar2Vv2UL0TNTEPzBSjBTZyupa8siFp_YVI_MXHiBViWuJv3OAzWgPLQC5Jpub/s1851/asignar_taxonomia.png" width="730">
 
 A través de este paso, podemos determinar los grupos taxonómicos presentes en nuestras muestras.
 
@@ -164,7 +164,7 @@ Los análisis de 16S normalmente trabajan a partir de OTUs (Operational Taxonomi
 
 Para ello, utilizaremos el siguiente [workflow][workflow_otus] de la siguiente manera:
 
-<img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkIm8eB2LWsT0g6ITb_LT0RieEbPKuMEcqoEuCYa_NlgaBzaAtN7nM9JwlZPHsbm14FGzHypLzor3NmJRX_ByNiD4hnbDwFv9r2ODnCrbd-k5wSpKV4HCm_fQbdbH_r15mWLpqbeab2YLvusdA_IoVjTcif9eAefV2hiWMPiopgG-HqHmLyxLBisUVonnH/s1851/asignar_otus.png width="730">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkIm8eB2LWsT0g6ITb_LT0RieEbPKuMEcqoEuCYa_NlgaBzaAtN7nM9JwlZPHsbm14FGzHypLzor3NmJRX_ByNiD4hnbDwFv9r2ODnCrbd-k5wSpKV4HCm_fQbdbH_r15mWLpqbeab2YLvusdA_IoVjTcif9eAefV2hiWMPiopgG-HqHmLyxLBisUVonnH/s1851/asignar_otus.png" width="730">
 
 ### Visualización
 
