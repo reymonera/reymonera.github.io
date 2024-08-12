@@ -43,3 +43,12 @@ For the eukarya domain, it is still in dispute where to place it. The paper does
 - [ ] Exact difference on Figure 1 and 2.
 - [ ] Do we currently consider this phyla?
 
+### Genomic evolution of the class *Acidithiobacillia*: deep-branching Proteobacteria living in extreme acidic conditions (Moya-Beltrán et. al. 2021)
+
+#### Problem and Solution
+
+Genus *Acidithiobacillus* now belongs to class *Acidithiobacillia*. However, since this reform of the clase, there has been no exploration of the class, in general. This paper presents a comparative genomic analysis of 100 genomes, thus trying to research further on the distinctions and important reminders about this class.
+
+#### Remarks
+
+#### Questions here:

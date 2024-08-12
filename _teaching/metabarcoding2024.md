@@ -180,7 +180,7 @@ Esto se añade de la siguiente manera:
 
 Con lo que quedaría lo siguiente:
 
-![Krona-pie-chart](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSYfQzSFesknqxsxVHLJpJrTzQ8wKeNycuX06ksSK4eDlECbUUTkcmk8f9cAiR0C2riUkEGWcmfxz8dGk1w-gfInJ7QToIse0ARnEcwr1BAT6zpksRJ_xbV9lzAW-lW_vJnA6FCg0d-LGSvYe3idpEpd9d3lZU5HTz4dpEyKLoM5GtuQxHO7VHdSFnAQN4/s1851/deberiamos_resultado_krona.png)
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSYfQzSFesknqxsxVHLJpJrTzQ8wKeNycuX06ksSK4eDlECbUUTkcmk8f9cAiR0C2riUkEGWcmfxz8dGk1w-gfInJ7QToIse0ARnEcwr1BAT6zpksRJ_xbV9lzAW-lW_vJnA6FCg0d-LGSvYe3idpEpd9d3lZU5HTz4dpEyKLoM5GtuQxHO7VHdSFnAQN4/s1851/deberiamos_resultado_krona.png" width="730">
 
 ## Conclusión
 
