@@ -3,16 +3,16 @@
     "name": "Camila Castillo-Vilcahuaman",
     "label": "Bioinformatician | Programmer | Microbial Ecologist",
     "image": "",
-    "email": "camila.castillo.v@upch.pe",
-    "phone": "+51 999 999 999",
+    "email": "camila.castillo.v@uni-jena.de",
+    "phone": "+49 160 5491366",
     "url": "https://reymonera.github.io",
-    "summary": "Bioinformatician born and raised in Peru. Interested in microbial ecology and the bioinformatic tools for the study of microbial communities.",
+    "summary": "Bioinformatician born and raised in Peru. Interested in microbial ecology, evolution and the bioinformatic tools for the study of said topics.",
     "location": {
-      "address": "Av. Honorio Delgado - San Martín de Porres",
-      "postalCode": "CA 94115",
-      "city": "Lima",
-      "countryCode": "Peru",
-      "region": "Lima"
+      "address": "Room 106 - Rosalind-Franklin-Straße 1",
+      "postalCode": "07745 Jena",
+      "city": "Jena",
+      "countryCode": "Germany",
+      "region": "Thüringen"
     },
     "profiles": [
       {
@@ -23,6 +23,22 @@
     ]
   },
   "work": [
+    {
+      "name": "Balance of the Microverse",
+      "position": "Doctoral Researcher | Doktorand",
+      "url": "www.linkedin.com/in/camila-castillo-vilcahuaman",
+      "startDate": "2025-09-12",
+      "endDate": "Still...",
+      "summary": "Doing doctoral research: 0/3"
+    },
+    {
+      "name": "CERTUS",
+      "position": "IT Instructor",
+      "url": "www.linkedin.com/in/camila-castillo-vilcahuaman",
+      "startDate": "2025-06-01",
+      "endDate": "Still...",
+      "summary": "Taught the 'Digital Tools for Business' course."
+    },
     {
       "name": "ZenBusiness",
       "position": "SEO Implementation Specialist",
@@ -64,36 +80,45 @@
     },
     {
       "organization": "Sociedad Peruana de Bioinformática",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "location": "Lima, Peru",
+      "position": "Director of Data Analysis Committee",
+      "url": "https://bioinformatica.pe/",
+      "startDate": "2025-04-01",
+      "endDate": "Still...",
+      "summary": "Director of the Data Analysis group, that evaluates the impact of the society in peruvian research."
     },
     {
       "organization": "Women Techmakers - Google",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "location": "Lima, Peru",
+      "position": "Volunteer"
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Friedrich Schiller Universität - Jena",
+      "location": "Jena, Germany",
+      "url": "https://www.uni-jena.de/",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2025-09-12",
+      "endDate": "Still..."
+    },
+    {
+      "institution": "Universidad Peruana Cayetano Heredia, Lima, Peru",
+      "location": "Lima, Peru",
+      "url": "https://cayetano.edu.pe/",
+      "area": "Biochemistry and Molecular Biology",
+      "studyType": "Master of Sciences",
+      "startDate": "2020-03-01",
+      "endDate": "2025-12-01 Defended Thesis"
+    },
+    {
+      "institution": "Universidad Peruana Cayetano Heredia, Lima, Peru",
+      "location": "Lima, Peru",
+      "url": "https://cayetano.edu.pe/",
+      "area": "Biology",
+      "studyType": "Bachelor of Sciences",
+      "startDate": "2013-03-01",
+      "endDate": "2017-12-01"
     }
   ],
   "awards": [
