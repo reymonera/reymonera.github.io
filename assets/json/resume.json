@@ -103,7 +103,7 @@
       "endDate": "Still..."
     },
     {
-      "institution": "Universidad Peruana Cayetano Heredia, Lima, Peru",
+      "institution": "Universidad Peruana Cayetano Heredia",
       "location": "Lima, Peru",
       "url": "https://cayetano.edu.pe/",
       "area": "Biochemistry and Molecular Biology",
@@ -112,7 +112,7 @@
       "endDate": "2025-12-01 Defended Thesis"
     },
     {
-      "institution": "Universidad Peruana Cayetano Heredia, Lima, Peru",
+      "institution": "Universidad Peruana Cayetano Heredia",
       "location": "Lima, Peru",
       "url": "https://cayetano.edu.pe/",
       "area": "Biology",
@@ -128,6 +128,13 @@
       "releaseDate": "2025-05-14",
       "url": "https://academic.oup.com/nar/article/53/W1/W398/8131113",
       "summary": "A web-server tool that gave me a lot of positions."
+    },
+    {
+      "name": "Metabarcoding analysis reveals microbial diversity and its environmental drivers in the Pantanos de Villa lagoons in Lima-Peru",
+      "publisher": "Preprint",
+      "releaseDate": "2025-07-15",
+      "url": "https://www.researchgate.net/profile/Camila-Castillo-Vilcahuaman/publication/393710874_Metabarcoding_analysis_reveals_microbial_diversity_and_its_environmental_drivers_in_the_Pantanos_de_Villa_lagoons_in_Lima_-_Peru/links/687977fbf312d71d78c81556/Metabarcoding-analysis-reveals-microbial-diversity-and-its-environmental-drivers-in-the-Pantanos-de-Villa-lagoons-in-Lima-Peru.pdf",
+      "summary": "A work I truly like."
     },
     {
       "name": "From the Andes to the desert: 16S rRNA metabarcoding characterization of aquatic bacterial communities in the Rimac river, the main source of water for Lima, Peru",
