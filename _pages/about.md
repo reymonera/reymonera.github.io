@@ -32,4 +32,4 @@ I am always open to questions and lengthy discussions over e-mail! I might be th
 
 ## about reymonera
 
-In my hear I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
+In my heart I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
