@@ -29,3 +29,7 @@ I do not believe in specialization and I do everything in my power to not fall i
 When not working on my paid-job, you will find me reading good or bad literature, listening to progressive metal albums, riding my bike or just discussing stuff over Reddit.
 
 I am always open to questions and lengthy discussions over e-mail! I might be the only person that regularly checks her e-mail. Collaborations might be a tricky one, but I'm always interested in never-explored microbial ecosystems.
+
+## about reymonera
+
+In my hear I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
