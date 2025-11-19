@@ -1,80 +1,26 @@
 ---
 layout: page
-title: literature project - Papelera de Reciclaje
-description: a project with a background image
-img: assets/img/1.jpg
+title: Papelera de Reciclaje
+description: about my literary taste and work
+img: assets/img/reciclajepapelera/dog-watermelon-cat-orange-hats.png
 importance: 3
 category: creative & pens
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This is my literary project. It is an excercise in which I test my ideas for stories and try to play with ideas and language. I'm currently mostly doing speculative fiction and science fiction whenever I sit down. I'm very interested in how our imagination about technology and the future is shaped by culture, for instance, latinamerican culture. I also do little literary essays that I tag as "non-essays", since I once read a literary essay and I don't think I can reach that level of beauty and such an interesting topic development.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+3 works that define me:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+1. "Las ruinas circulares" by Jose Luis Borges
+2. "Profession" by Isaac Asimov
+3. "Insignia" by Julio Ramón Ribeyro
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Sci-Fi works that I do think about a lot:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+1. "Los cuerpos del verano" by Martín Felipe Castagnet
+2. "Babel-17" by Samuel R. Delany
+3. "Cyborg Manifesto" by Donna Haraway
+4. "Do Androids Dream of Electric Sheep?" by Phillip K. Dick
+5. "Martian Chronicles" by Ray Bradbury
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+I'm not updating this page as regularly, since this should work as a presentation and that's it. I would recommend to just visit my blog [here](https://reciclajepapelera.blogspot.com/).

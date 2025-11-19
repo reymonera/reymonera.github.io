@@ -26,10 +26,10 @@ As any latinamerican researcher, I had numerous paralel jobs during my time in P
 
 I do not believe in specialization and I do everything in my power to not fall into it. Thus, you will find a directory from which you can also explore my literary work, my art, sci-comm events and coding side projects. I do consider that exploring multiple fields contributes to creativity in general and allows me to think with other scopes in mind. Many of my ideas for my science come from other sources.
 
-When not working on my paid-job, you will find me reading good or bad literature, listening to progressive metal albums, riding my bike or just discussing stuff over Reddit (which is basically an unpaid job with the length of my comments...)
+When not working on my paid-job, you will find me reading good or bad literature, listening to progressive metal albums, riding my bike, watching body-mod content or just discussing stuff over Reddit (which is basically an unpaid job with the length of my comments...)
 
 I am always open to questions and lengthy discussions over e-mail! I might be the only person that regularly checks her e-mail. Collaborations might be a tricky one, but I'm always interested in never-explored microbial ecosystems.
 
 ## about reymonera
 
-In my heart I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
+In my heart I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. Said hacker name had to have some relation with my field of expertise. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
