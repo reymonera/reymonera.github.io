@@ -18,11 +18,12 @@ The webinar ended up in local news:
 | URL | Information | Date |
 |-----|-------------|------|
 | [RPP.pe](https://rpp.pe/videojuegos/geek/la-sociedad-cientifica-de-astrobiologia-del-peru-realizara-una-charla-sobre-evolucion-pokemon-noticia-1275202?ref=rpp) | The Scientific Society of Astrobiology of Peru (SCAP) announced a webinar on "Pokémon evolution". The event aimed to introduce biology concepts in a didactic way using Pokémon characters. | June 23, 2020 |
-| [Aweita](https://web.archive.org/web/20210211162026/https://aweita.larepublica.pe/anime-manga-y-comics/2020/06/19/sociedad-cientifica-de-astrobiologia-del-peru-charla-cientifica-evolucion-pokemon-251) | *Content blocked - unable to access archived page* | June 19, 2020 (URL date) / Archived: February 11, 2021 |
-| [Canal IPe](https://www.canalipe.gob.pe/noticias/curiosidades/ella-nos-ensena-conceptos-basicos-de-biologia-con-pokemon) | Article about a biologist and Pokémon fan, who prepared the webinar "Basic Concepts in Pokémon Evolution" for July 4 at 6:30 p.m. The goal was to teach about the evolutionary process using characters from the franchise. | July 2, 2020 |
+| [Aweita](https://web.archive.org/web/20210211162026/https://aweita.larepublica.pe/anime-manga-y-comics/2020/06/19/sociedad-cientifica-de-astrobiologia-del-peru-charla-cientifica-evolucion-pokemon-251) | An article with an interview in which I explain how I got the idea and what's the webinar about. | June 19, 2020 (URL date) / Archived: February 11, 2021 |
+| [Canal IPe](https://www.canalipe.gob.pe/noticias/curiosidades/ella-nos-ensena-conceptos-basicos-de-biologia-con-pokemon) | Article about the webinar "Basic Concepts in Pokémon Evolution" for July 4 at 6:30 p.m explaining the goal to teach about the evolutionary process using characters from the franchise. | July 2, 2020 |
+
 
 Basically, this has been the peak of my sci-comm efforts.
 
 <p align="center">
-  <img src="https://pa1.aminoapps.com/6393/d3f119a325ce8eb1de0551fca179f811fc9c0a7c_hq.gif" alt="Pokémon GIF">
+  <img src="https://img.pokemondb.net/sprites/black-white/anim/back-normal/feraligatr.gif" alt="Pokémon GIF">
 </p>

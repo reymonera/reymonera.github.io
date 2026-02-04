@@ -15,12 +15,13 @@ This is my literary project. It is an excercise in which I test my ideas for sto
 2. "Profession" by Isaac Asimov
 3. "Insignia" by Julio Ramón Ribeyro
 
-Sci-Fi works that I do think about a lot:
+Sci-Fi & literary works in general that I do think about a lot:
 
 1. "Los cuerpos del verano" by Martín Felipe Castagnet
 2. "Babel-17" by Samuel R. Delany
 3. "Cyborg Manifesto" by Donna Haraway
 4. "Do Androids Dream of Electric Sheep?" by Phillip K. Dick
 5. "Martian Chronicles" by Ray Bradbury
+6. "Mona" by Pola Oloixarac
 
 I'm not updating this page as regularly, since this should work as a presentation and that's it. I would recommend to just visit my blog [here](https://reciclajepapelera.blogspot.com/).
