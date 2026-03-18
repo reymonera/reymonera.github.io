@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p>'Most Enthusiastic Nihilist in South America.' - Reddit Wrapped</p>
+subtitle: "<p style=\"color: #c00;\">'Most Enthusiastic Nihilist in South America.' - Reddit Wrapped</p>"
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -13,7 +13,7 @@ profile:
     <p>Viral Ecology and Omics Group (VEO)</p>
     <p>Jena, Germany [currently]</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
