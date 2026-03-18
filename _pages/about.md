@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Doing my best to have a lot of labels in my non-existent Wikipedia page.</a>
+subtitle: <p>'Most Enthusiastic Nihilist in South America.' - Reddit Wrapped</p>
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -22,7 +22,7 @@ I am currently a Doctoral Researcher at the VEO Group in Friedrich Schiller Univ
 
 Prior to this, I was enrolled in a BSc. in Biology and a MSc. in Biochemistry and Molecular Biology at Universidad Peruana Cayetano Heredia in Lima - Peru. I did my Masters Thesis in the comparative genomics of *Bartonella bacilliformis*, a pathogen restricted to the Andean region.
 
-As any latinamerican researcher, I had numerous paralel jobs during my time in Peru, such as software developer and SEO technician in the IT industry, a side-job you can check on [LinkedIn](https://www.linkedin.com/in/camila-castillo-vilcahuaman), if you are interested in that side of me. I also hold a technical degree in Computation and Informatics and have taught courses in technology for technical institutes.
+As any latinamerican researcher, I had numerous parallel jobs during my time in Peru, such as software developer and SEO technician in the IT industry, a side-job you can check on [LinkedIn](https://www.linkedin.com/in/camila-castillo-vilcahuaman), if you are interested in that side of me. I also hold a technical degree in Computation and Informatics and have taught courses in technology for technical institutes.
 
 I do not believe in specialization and I do everything in my power to not fall into it. Thus, you will find a directory from which you can also explore my literary work, my art, sci-comm events and coding side projects. I do consider that exploring multiple fields contributes to creativity in general and allows me to think with other scopes in mind. Many of my ideas for my science come from other sources.
 
