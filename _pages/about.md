@@ -33,3 +33,12 @@ I am always open to questions and lengthy discussions over e-mail! I might be th
 ## about reymonera
 
 In my heart I'm still a nerdy kid, so when I had to start an academic Internet identity, I knew I wanted one of those cool hacker names even when I never hacked anything in my life. Said hacker name had to have some relation with my field of expertise. I also got into drag and was watching *Dragula* at the time, so I decided that my cool hacker name needed to be effortlessly translated into a drag king name too. Thus, reymonera was born. I don't know how much time this shtick will have, but writing *reymonera*.github on scientific papers never gets old!
+
+<a href="http://www.nerdtests.com/ft_nq.php">
+<img src="http://www.nerdtests.com/images/ft/nq/4fbf3d9fe6.gif" alt="I am nerdier than 97% of all people. Are you a nerd? Click here to take the Nerd Test, get geeky images and jokes, and talk on the nerd forum!"></a>
+
+<a href="http://www.nerdtests.com/ft_nt2.php">
+<img src="http://www.nerdtests.com/images/badge/nt2/a47d08c649cccf6b.png" alt="NerdTests.com says I'm a Highly Dorky Nerd Queen.  Click here to take the Nerd Test, get nerdy images and jokes, and talk to others on the nerd forum!">
+</a>
+
+**In my defense, SciFi is not only Star Wars and Star Trek, people!**
